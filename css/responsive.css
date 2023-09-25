@@ -1,0 +1,126 @@
+@media screen and (max-width: 1200px) {
+    .nav-bar ul{
+        gap: 10px;
+    }
+
+    .info-text h2{
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .info-text p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    
+
+    .reimagining-par-desktop{
+        display: none;
+    }
+
+    .reimagining{
+        margin-bottom: 0;
+    }
+
+    .reimagining-par-mobile{
+        display: block;
+        color: var(--mainGrey);
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px; 
+        letter-spacing: -0.36px;
+    }
+
+    .reimagining-cards{
+        gap: 49px;
+        margin-bottom: 140px;
+    }
+
+    .card{
+        padding: 44px 12px 20px 12px;
+        width: 100%;
+        height: 100%;
+        height: 340px;
+    }
+
+    .card img{
+        margin-bottom: 18px;
+    }
+
+    .card-title{
+        margin-bottom: 10px;
+    }
+
+
+
+    .kickstart, .onboard, .engage, .help, .start, #footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ham-btn{
+        display: block;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .info{
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .info-content{
+        text-align: center;
+        align-items: center;
+    }
+
+    .info-text h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .info-img-mobile{
+        display: block;
+    }
+
+    .info-img{
+        display: none;
+    }
+
+    .info{
+        padding: 0 18px;
+    }
+
+   
+    .reimagining-title h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .reimagining-par-mobile{
+        display: block;
+        color: var(--mainGrey);
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px; /* 177.778% */
+        letter-spacing: -0.36px;
+    }
+
+    .reimagining-cards{
+        flex-direction: column;
+    }
+
+    
+
+    .kickstart, .onboard, .engage, .help, .start, #footer{
+        display: none;
+    }
+}
